@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux'
 import { Outlet, useNavigate } from 'react-router-dom'
 import Navbar from '../navbar/Navbar'
 
-const Layout = () => {
+const LayOut = () => {
 
   // if thereis no data it will redirect to login page
   const sliceUser=useSelector((state)=>state.currentUser.value)
@@ -25,4 +25,4 @@ const Layout = () => {
   )
 }
 
-export default Layout
+export default LayOut

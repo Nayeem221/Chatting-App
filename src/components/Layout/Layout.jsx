@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { useSelector } from 'react-redux'
 import { Outlet, useNavigate } from 'react-router-dom'
-import Navbar from '../navbar/Navbar'
+import Navbar from '../Navbar/Navbar'
 
 const LayOut = () => {
 
@@ -19,7 +19,7 @@ const LayOut = () => {
   },[])
   return (
     <>
-      <Navbar/>
+     <Navbar/>
       <Outlet/>
     </>
   )
